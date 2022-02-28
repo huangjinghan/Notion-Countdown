@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:900|Noto Sans Mono:600">
     <title>Document</title>
     <style>
 
@@ -25,38 +25,28 @@ body{
   padding: 20px;
   width: 100px;
   border-radius: 5px;
+  color:  #F9F7E8;
 }
 
 .days {
-  background: #61BFAD;
-  color: #F9F7E8;
+  background: #EA9086;
 }
 
 .hours {
-  background: #F9F7E8;
-  color: #61BFAD;
+  background: #9ECCDB;
 }
 
 .minutes {
-  background: #F9F7E8;
-  color: #61BFAD;
+  background: #F1C863;
 }
 
 .seconds {
-  background: #F9F7E8;
-  color: #61BFAD;
+  background: #A2D8CB;
 }
 
 .numbers {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Noto Sans Mono', sans-serif;
   color:  #F9F7E8;
-  font-size: 4em;
-  text-align: center;
-}
-
-.numbers2 {
-  font-family: 'Montserrat', sans-serif;
-  color:  #61BFAD;
   font-size: 4em;
   text-align: center;
 }
@@ -99,13 +89,13 @@ body{
 <div id="timer">
 
     <div class="days"> 
-        <div id="days" class="numbers "> </div>days</div> 
+        <div id="days" class="numbers"> </div>days</div> 
       <div class="hours"> 
-        <div  id="hours" class="numbers2"> </div>hours</div> 
+        <div  id="hours" class="numbers"> </div>hours</div> 
       <div class="minutes"> 
-        <div  id="minutes" class="numbers2"> </div>minutes</div> 
+        <div  id="minutes" class="numbers"> </div>minutes</div> 
       <div   class="seconds"> 
-        <div id="seconds" class="numbers2"> </div>seconds</div> 
+        <div id="seconds" class="numbers"> </div>seconds</div> 
       </div>
 
 </div>
@@ -113,7 +103,7 @@ body{
 </body>
 <script>
     const year = new Date().getFullYear();
-const myDate = new Date('Oct 15, 2024 00:00:00');
+const myDate = new Date('JUn 3, 2022 00:00:00');
 console.log(myDate);
 
 // countdown
